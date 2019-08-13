@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "610729526468",
+    "firebase_url": "https://repairongo.firebaseio.com",
+    "project_id": "repairongo",
+    "storage_bucket": "repairongo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610729526468:android:eb4b9f9d6c149673",
+        "android_client_info": {
+          "package_name": "com.example.repairongo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610729526468-im6buiuumj1216a6rp1flc020id64lk5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.repairongo",
+            "certificate_hash": "eb545cecc07d82a02510d8067b251a632f04da0e"
+          }
+        },
+        {
+          "client_id": "610729526468-a1fii1tjt8he2cf0t9cn7uu4auojkofa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGD-8Q1nH6uPsOUJL47xVGdHBIYCUVH4Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610729526468-a1fii1tjt8he2cf0t9cn7uu4auojkofa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

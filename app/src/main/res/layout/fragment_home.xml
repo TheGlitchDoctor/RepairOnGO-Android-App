@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg2"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Choose a Service"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_00"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/button_states"
+        android:text="Electrician"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
+
+    <Button
+        android:id="@+id/button_01"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/button_states"
+        android:text="Computer Engineer"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_20" />
+
+    <Button
+        android:id="@+id/button_10"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/button_states"
+        android:text="Mobile Services"
+        app:layout_constraintStart_toEndOf="@+id/button_01"
+        app:layout_constraintTop_toBottomOf="@+id/button_11" />
+
+    <Button
+        android:id="@+id/button_11"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_states"
+        android:text="Kitchen"
+        app:layout_constraintStart_toEndOf="@+id/button_20"
+        app:layout_constraintTop_toBottomOf="@+id/button_21" />
+
+    <Button
+        android:id="@+id/button_20"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_states"
+        android:text="AC services"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_30" />
+
+    <Button
+        android:id="@+id/button_21"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/button_states"
+        android:text="TV Repair"
+        app:layout_constraintStart_toEndOf="@+id/button_30"
+        app:layout_constraintTop_toBottomOf="@+id/button_31" />
+
+    <Button
+        android:id="@+id/button_30"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/button_states"
+        android:text="Furniture"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_00" />
+
+    <Button
+        android:id="@+id/button_31"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/button_states"
+        android:text="Vehicle"
+        app:layout_constraintStart_toEndOf="@+id/button_00"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
