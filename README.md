@@ -22,4 +22,4 @@ registration data and for authentication purpose.
 
 
 
-MADE BY - Tushar Bana & Saloni Dave
+THIS APPLICATION IS MADE BY - Tushar Bana & Saloni Dave
