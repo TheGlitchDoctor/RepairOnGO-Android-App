@@ -14,3 +14,6 @@ registration data and for authentication purpose.
 #App automatically redirects to different pages as per the type of user logging in.
 
 #Users can also choose to edit their profile if required.
+
+
+MADE BY - Tushar Bana & Saloni Dave
